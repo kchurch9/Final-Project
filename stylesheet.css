@@ -1,0 +1,154 @@
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+body {
+    background-color: #b5a789;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 0px;
+   
+}
+#header {
+    background-color: #675c47;
+    margin:10px;
+    height:108px;
+
+}
+#headerimgcontainer {
+    max-width: 35%;
+    max-height: 20%;
+    
+}
+
+#main {
+    background: #efe5d0;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+
+}
+
+#sidebar {
+    background: #efe5d0;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    width: 280px;
+    float: right;
+}
+
+#footer {
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 90%;
+}
+h1{
+    font-size:120%;
+    color:#954b4b;
+
+}
+.solgan {
+    color: #954b4b;
+}
+.beanheading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+a:link {
+    color: #b76666;
+    text-decoration: none;
+    border-bottom: think dotted #b76666;
+
+}
+a:visited{
+    color:#675c47;
+    text-decoration:none;
+    border-bottom: thin dotted #675c47;
+
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    
+}
+
+/* popular time widget*/
+.imgcontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Logo image */
+img.logo {
+    width: 40%;
+    max-height: 75px;
+    border: 5px inset #e07a1296;
+    opacity: .9;
+}
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
